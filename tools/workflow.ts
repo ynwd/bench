@@ -57,10 +57,6 @@ if (import.meta.main) {
           uses: "antongolub/action-setup-bun@v1",
         },
         {
-          name: "Install Go",
-          uses: "actions/setup-go@v3",
-        },
-        {
           name: "Install Oha",
           uses: "baptiste0928/cargo-install@v1",
           with: {
