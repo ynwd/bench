@@ -1,0 +1,8 @@
+{
+  "name": "Golang",
+  "description": "Golang http standard",
+  "website": "https://go.dev",
+  "benchmarks": {
+    "hello_bench": "go run hello_bench.go"
+  }
+}
