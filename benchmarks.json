@@ -3,9 +3,7 @@
     "hello_bench": {
       "name": "Hello, bench!",
       "description": "A simple benchmark which expects a response simply containing the text \"`Hello, Bench!`\"",
-      "duration": 40,
-      "requests": 400,
-      "connections": 12
+      "duration": 10
     }
   }
 }
