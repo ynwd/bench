@@ -96,7 +96,7 @@ export async function runBenchmark(
   }
 
   // Run server
-  const server = Deno.run({
+  Deno.run({
     cmd: cmds.pop()!.split(" "),
     cwd: join(workdir, "frameworks", frameworkIdentifier),
     stdin: "inherit",
