@@ -53,7 +53,7 @@ export async function oha(
 
 async function killServer() {
   const l = Deno.run({
-    cmd: [`lsof`, `-t`, `-i:9000`],
+    cmd: [`lsof`, `-t`, `-i:8000`],
     stdout: "piped",
     stderr: "piped",
     stdin: "null",
