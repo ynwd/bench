@@ -51,6 +51,24 @@ export async function oha(
   return JSON.parse(output);
 }
 
+async function killServer() {
+  const o = await Deno.run({
+    cmd: [`lsof`, `-t`, `-i:8000`],
+    stdout: "piped",
+    stderr: "piped",
+    stdin: "null",
+  }).output();
+
+  const res = new TextDecoder().decode(o);
+  try {
+    const pid = JSON.parse(res);
+    const c = Deno.run({ cmd: ["kill", "-9", `${pid}`] });
+    await c.status();
+  } catch (error) {
+    console.log(error);
+  }
+}
+
 export async function runBenchmark(
   benchmark: BenchmarkDefinition,
   framework: FrameworkDefinition,
@@ -95,8 +113,10 @@ export async function runBenchmark(
   const result = await oha("http://localhost:8000", benchmark);
 
   // Close server process
-  server.kill("SIGKILL");
-  server.close();
+  // server.kill("SIGKILL");
+  // server.close();
+
+  await killServer();
 
   return result;
 }
