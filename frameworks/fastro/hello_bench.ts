@@ -1,7 +1,7 @@
-import application from "https://deno.land/x/fastro/server/mod.ts";
+import fastro from "https://deno.land/x/fastro/mod.ts";
 
-const app = new application();
+const f = new fastro();
 
-app.get("/", () => "Hello, Bench!");
+f.get("/", () => "Hello, Bench!");
 
-await app.serve();
+await f.serve();
