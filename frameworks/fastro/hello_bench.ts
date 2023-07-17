@@ -1,6 +1,6 @@
-import fastro from "https://deno.land/x/fastro/mod.ts";
+import fastro from "https://deno.land/x/fastro/server/mod.ts";
 
-const f = new fastro();
+const f = fastro();
 
 f.get("/", () => "Hello, Bench!");
 
