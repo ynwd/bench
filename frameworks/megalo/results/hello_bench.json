@@ -1,11 +1,11 @@
 {
   "summary": {
     "successRate": 0,
-    "total": 10.001067622,
+    "total": 10.000775051,
     "slowest": null,
     "fastest": null,
     "average": null,
-    "requestsPerSec": 67688.67340831184,
+    "requestsPerSec": 38121.84536256299,
     "totalData": 0,
     "sizePerRequest": null,
     "sizePerSec": 0
@@ -50,7 +50,6 @@
   },
   "statusCodeDistribution": {},
   "errorDistribution": {
-    "Connection refused (os error 111)": 676909,
-    "connection error: Connection reset by peer (os error 104)": 50
+    "Connection refused (os error 111)": 381248
   }
 }
