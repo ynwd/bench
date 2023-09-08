@@ -4,4 +4,4 @@ const f = new fastro();
 
 f.get("/", () => "Hello, World!");
 
-await f.serve();
+await f.serve({port: 8000});
