@@ -1,4 +1,4 @@
-import fastro from "https://deno.land/x/fastro/server/mod.ts";
+import fastro from "https://deno.land/x/fastro/mod.ts";
 
 const f = fastro();
 
