@@ -1,7 +1,7 @@
 import fastro from "https://deno.land/x/fastro/mod.ts";
 
-const f = fastro();
+const f = new fastro();
 
-f.get("/", () => "Hello, Bench!");
+f.get("/", () => "Hello, World!");
 
 await f.serve();
