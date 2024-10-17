@@ -1,55 +1,67 @@
 {
   "summary": {
-    "successRate": 0,
-    "total": 10.000260882,
-    "slowest": null,
-    "fastest": null,
-    "average": null,
-    "requestsPerSec": 59991.134939273485,
-    "totalData": 0,
-    "sizePerRequest": null,
-    "sizePerSec": 0
+    "successRate": 0.6351914597170655,
+    "total": 10.000419249,
+    "slowest": 0.009791591,
+    "fastest": 0.000128551,
+    "average": 0.000976607647022726,
+    "requestsPerSec": 50525.48172423126,
+    "totalData": 4172311,
+    "sizePerRequest": 13,
+    "sizePerSec": 417213.6083611908
   },
   "responseTimeHistogram": {
-    "NaN": 0
+    "0.000128551": 1,
+    "0.001094855": 268303,
+    "0.0020611590000000003": 52313,
+    "0.003027463": 227,
+    "0.0039937670000000005": 53,
+    "0.004960071000000001": 26,
+    "0.005926375": 19,
+    "0.0068926790000000005": 4,
+    "0.007858983": 0,
+    "0.008825287": 0,
+    "0.009791591": 1
   },
   "latencyPercentiles": {
-    "p10": null,
-    "p25": null,
-    "p50": null,
-    "p75": null,
-    "p90": null,
-    "p95": null,
-    "p99": null
+    "p10": 0.000731975,
+    "p25": 0.000913705,
+    "p50": 0.001000485,
+    "p75": 0.001070128,
+    "p90": 0.001122798,
+    "p95": 0.001170885,
+    "p99": 0.00131622
   },
   "rps": {
-    "mean": 0,
-    "stddev": 0,
-    "max": null,
+    "mean": 51027.03265399163,
+    "stddev": 5987.037216714665,
+    "max": 77921.10103416358,
     "percentiles": {
-      "p10": null,
-      "p25": null,
-      "p50": null,
-      "p75": null,
-      "p90": null,
-      "p95": null,
-      "p99": null
+      "p10": 47763.37722523739,
+      "p25": 48722.84614255215,
+      "p50": 49674.46133376295,
+      "p75": 51301.75946892753,
+      "p90": 57654.76207093867,
+      "p95": 63730.29020529429,
+      "p99": 70904.53455529272
     }
   },
   "details": {
     "DNSDialup": {
-      "average": 0,
-      "fastest": null,
-      "slowest": null
+      "average": 0.00106960068,
+      "fastest": 0.000124473,
+      "slowest": 0.004862529
     },
     "DNSLookup": {
-      "average": 0,
-      "fastest": null,
-      "slowest": null
+      "average": 0.00000872986,
+      "fastest": 0.000004439,
+      "slowest": 0.000019998
     }
   },
-  "statusCodeDistribution": {},
+  "statusCodeDistribution": {
+    "200": 320947
+  },
   "errorDistribution": {
-    "Connection refused (os error 111)": 599927
+    "Connection refused (os error 111)": 184329
   }
 }
