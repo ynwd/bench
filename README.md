@@ -88,7 +88,7 @@
 | Servest                                                                              | 6298.21  | 1575.21  | 11800.22  | 8%       |
 | Acorn                                                                                | 0.00     | 0.00     | 0.00      | 0%       |
 | Opine                                                                                | 0.00     | 0.00     | 0.00      | 0%       |
-| ![Chart](https://quickchart.io/chart/render/sf-ad2e12dc-1245-43f5-ac4e-fc472f94111a) |          |          |           |          |
+| ![Chart](https://quickchart.io/chart/render/sf-6da367fc-11d0-4587-b8b1-0e2a575b186e) |          |          |           |          |
 
 # Frameworks
 
@@ -421,4 +421,4 @@ A simple benchmark which expects a response simply containing the text
 
 ---
 
-<p align="center">Generated 2025-06-18T12:11:00.109Z</p>
+<p align="center">Generated 2025-06-18T18:10:32.945Z</p>
